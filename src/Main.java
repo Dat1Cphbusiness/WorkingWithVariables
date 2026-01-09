@@ -4,16 +4,26 @@ public class Main {
         
         // INSTRUKTIONER TIL STUDERENDE:
         // -------------------------------
-        // I dette level skal du arbejde med variabler DIREKTE i testLevel1() metoden.
-        // Du skal IKKE implementere metoder i klasserne.
-        // Al din kode skal skrives i testLevel1() metoden nedenfor.
+        // Denne Main class indeholder test metoder for ALLE levels i Variables serien.
+        // Uncommment den level du arbejder på, og kommentér resten ud.
         
         testLevel1();
+        //testLevel2();
     }
     
     public static void testLevel1() {
         // Level 1: Variable Basics & Primitive Types
         // Fokus: Declaration, initialization, assignment, primitive types
+        // Klasser: Temperature, Person, Product
+        
+        // Din kode her
+        
+    }
+    
+    public static void testLevel2() {
+        // Level 2: Variable Roles - Counter & Accumulator
+        // Fokus: Counting occurrences, summing values, increment/decrement operators
+        // Klasser: ScoreTracker, BudgetTracker, EventCounter
         
         // Din kode her
         
