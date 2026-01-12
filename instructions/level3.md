@@ -283,6 +283,8 @@ if (isRunning) {
 ## Del A: Basic Flag Variables
 
 ### Opgave 3.1: Din første flag
+📖 [Se forklaring: Flag Variables](#flag-variables)
+
 **Opgave:** 
 1. Erklær boolean `isReady` = false
 2. Print isReady
@@ -368,6 +370,8 @@ true
 ## Del B: Checking Flags (if statements)
 
 ### Opgave 3.6: Simple flag check
+📖 [Se forklaring: Checking Flags](#checking-flags)
+
 **Opgave:** 
 1. Erklær boolean `hasAccess` = true
 2. Hvis hasAccess er true, print "Access granted"
@@ -443,6 +447,8 @@ Form submitted
 ## Del C: Multiple Flags Together
 
 ### Opgave 3.11: AND operator
+📖 [Se forklaring: Logical Operators](#logical-operators-med-flags)
+
 **Opgave:** 
 1. Erklær boolean `isLoggedIn` = true
 2. Erklær boolean `isAdmin` = true
@@ -515,6 +521,8 @@ Can stream
 ## Del D: State Transitions
 
 ### Opgave 3.16: Simple state change
+📖 [Se forklaring: State Transitions](#state-transitions)
+
 **Opgave:** 
 1. Erklær boolean `isRunning` = false
 2. Print isRunning

@@ -249,6 +249,8 @@ System.out.println("Changed from " + oldValue + " to " + currentValue);
 ## Del A: Basic Temporary Variables
 
 ### Opgave 5.1: Din første temp variable
+📖 [Se forklaring: Temporary Variables](#temporary-variables)
+
 **Opgave:** 
 1. Erklær double `price` = 100.0
 2. Erklær double `taxRate` = 0.25
@@ -329,6 +331,8 @@ System.out.println("Changed from " + oldValue + " to " + currentValue);
 ## Del B: The Swap Pattern
 
 ### Opgave 5.6: Din første swap
+📖 [Se forklaring: Swap Pattern](#swap-pattern)
+
 **Opgave:** 
 1. Erklær int `a` = 10
 2. Erklær int `b` = 20
@@ -484,6 +488,8 @@ A C B D
 ## Del D: Breaking Down Complex Calculations
 
 ### Opgave 5.16: Temperature conversion steps
+📖 [Se forklaring: Breaking Complex Calculations](#breaking-complex-calculations-into-steps)
+
 **Opgave:** 
 1. Erklær double `celsius` = 25.0
 2. Erklær double `multiplied` = celsius * 9.0 (step 1)
@@ -883,6 +889,8 @@ Opret et comprehensive calculation system:
 ## Del I: Operator Precedence with Temp Variables
 
 ### Opgave 5.41: Why parentheses matter
+📖 [Se forklaring: Operator Precedence (Level 1 BONUS)](#operator-precedence-rækkefølge)
+
 **Opgave:** 
 1. Erklær int `a` = 10
 2. Erklær int `b` = 5

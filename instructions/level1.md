@@ -12,8 +12,6 @@
 
 ---
 
-[Spring til opgave 1](#del-a-declaration--initialization)
-
 ## Begrebsgennemgang
 
 ### Hvad er en Variabel?
@@ -166,31 +164,14 @@ score = score + 50;         // Brug gammel værdi til at beregne ny
 System.out.println(score);  // 250
 ```
 
-### Variables med Objects (Klasser og Objekter)
+### Variables med Objects
+Du kan også have variabler der holder objekter:
 
-**Hvad er en Klasse?**  
-En **klasse** er en blueprint for en kompleks datatype.  
-Ligesom `int` er en type for tal, kan vi lave vores egne typer!
-
-Person-klassen (se Person.java) definerer at en person har:
-- Fornavn og efternavn (String)
-- Alder (int)
-- Højde (double)
-- Osv.
-
-**Hvad er et Objekt?**  
-Et **objekt** er en konkret "ting" lavet fra blueprintet.
 ```java
-Person person = new Person("Anna", "Jensen");  // Opret person-objekt
-int age = person.getAge();                     // Hent værdi
-person.setAge(25);                             // Sæt værdi
+Person person = new Person("Anna", "Jensen");
+int age = person.getAge();           // Hent værdi fra objekt
+person.setAge(25);                    // Sæt ny værdi i objekt
 ```
-
-**Tænk på det sådan:**
-- `int age = 25` - simpel variabel
-- `Person person = new Person(...)` - kompleks variabel (objekt)
-
-**Du skal IKKE skrive klasser endnu - bare bruge dem som komplekse variable!**
 
 **Tag udgangspunkt i klasserne Temperature, Person, og Product.**  
 **Skriv din kode i Main.java i testLevel1() metoden.**
@@ -214,6 +195,8 @@ person.setAge(25);                             // Sæt værdi
 ## Del A: Declaration & Initialization
 
 ### Opgave 1.1: Din første variabel
+📖 [Se forklaring: Declaration & Initialization](#declaration-vs-initialization)
+
 **Opgave:** 
 1. Erklær en int variabel kaldet `myAge`
 2. Initialiser den til din alder
@@ -252,6 +235,8 @@ person.setAge(25);                             // Sæt værdi
 ---
 
 ### Opgave 1.4: Multiple variables
+📖 [Se forklaring: Primitive Data Types](#primitive-data-types)
+
 **Opgave:** 
 1. Erklær og initialiser tre variabler:
    - int `quantity` = 5
@@ -312,6 +297,8 @@ A
 ---
 
 ### Opgave 1.8: Int with object
+📖 [Se forklaring: Variables med Objects](#variables-med-objects)
+
 **Opgave:** 
 1. Opret en Person: "Lars", "Nielsen"
 2. Erklær int variabel `personAge` = 30
@@ -596,6 +583,8 @@ $
 ## Del F: Type Conversion
 
 ### Opgave 1.26: Int to double (automatic)
+📖 [Se forklaring: Type Conversion](#type-conversion)
+
 **Opgave:** 
 1. Erklær int `age` = 25
 2. Erklær double `ageAsDouble` = age
@@ -669,6 +658,8 @@ $
 ## Del G: Constants (final)
 
 ### Opgave 1.31: First constant
+📖 [Se forklaring: Constants (final)](#constants-final)
+
 **Opgave:** 
 1. Erklær `final int MAX_STUDENTS = 30`
 2. Print MAX_STUDENTS

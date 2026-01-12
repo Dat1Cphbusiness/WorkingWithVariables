@@ -243,6 +243,8 @@ double average = (sum / count) * 100; // Correct
 ## Del A: Basic Arithmetic (+, -, *, /)
 
 ### Opgave 2.1: Addition - Sammenlægning
+📖 [Se forklaring: Arithmetic Operators](#arithmetic-operators-regneartsoperatorer)
+
 **Opgave:** 
 1. Erklær int `myMoney` = 50
 2. Erklær int `friendMoney` = 30
@@ -319,6 +321,8 @@ double average = (sum / count) * 100; // Correct
 ## Del B: Integer Division vs Decimal Division
 
 ### Opgave 2.6: Integer division problem
+📖 [Se forklaring: Integer Division vs Decimal Division](#integer-division-vs-decimal-division)
+
 **Opgave:** 
 1. Erklær int `cookies` = 10
 2. Erklær int `people` = 3
@@ -391,6 +395,8 @@ double average = (sum / count) * 100; // Correct
 ## Del C: Modulo Operator (%)
 
 ### Opgave 2.11: Find leftovers
+📖 [Se forklaring: Modulo Operator](#modulo-operator---praktiske-eksempler)
+
 **Opgave:** 
 1. Erklær int `candy` = 23
 2. Erklær int `kids` = 5
@@ -466,6 +472,8 @@ Player 1's turn
 ## Del D: Operator Precedence (Rækkefølge)
 
 ### Opgave 2.16: Multiplication before addition
+📖 [Se forklaring: Operator Precedence](#operator-precedence-rækkefølge)
+
 **Opgave:** 
 1. Erklær int `result1` = 5 + 3 * 2
 2. Erklær int `result2` = (5 + 3) * 2
@@ -543,6 +551,8 @@ Player 1's turn
 ## Del E: String Concatenation
 
 ### Opgave 2.21: Combine strings
+📖 [Se forklaring: String Concatenation](#string-concatenation-sammenkædning)
+
 **Opgave:** 
 1. Erklær String `firstName` = "Anna"
 2. Erklær String `lastName` = "Hansen"
@@ -616,6 +626,8 @@ Hello World
 ## Del F: Compound Assignment
 
 ### Opgave 2.26: Using +=
+📖 [Se forklaring: Compound Assignment Operators](#compound-assignment-operators)
+
 **Opgave:** 
 1. Erklær int `score` = 100
 2. Print score

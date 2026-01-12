@@ -274,6 +274,8 @@ Ofte bruges samme variabel til begge (i i loops).
 ## Del A: Basic Index Variables
 
 ### Opgave 4.1: Din første index
+📖 [Se forklaring: Index Variables](#index-variables)
+
 **Opgave:** 
 1. Erklær String array: {"Apple", "Banana", "Cherry"}
 2. Erklær int `index` = 0
@@ -356,6 +358,8 @@ Song1
 ## Del B: Zero-Based Indexing
 
 ### Opgave 4.6: Understanding zero-based
+📖 [Se forklaring: Zero-Based Indexing](#zero-based-indexing)
+
 **Opgave:** 
 1. Erklær String array: {"First", "Second", "Third"}
 2. Print "Element at index 0: " + array[0]
@@ -437,6 +441,8 @@ Index out of bounds
 ## Del C: Iterator Variables in Loops
 
 ### Opgave 4.11: Basic for loop iterator
+📖 [Se forklaring: Iterator Variables](#iterator-variables)
+
 **Opgave:** 
 1. Erklær String array: {"A", "B", "C", "D"}
 2. Loop med for (int i = 0; i < array.length; i++)
@@ -934,6 +940,8 @@ Opret et system der:
 ## Del I: Modulo with Index Patterns
 
 ### Opgave 4.41: Even and odd indices
+📖 [Se forklaring: Modulo Operator (Level 1 BONUS)](#modulo-operator---praktiske-eksempler)
+
 **Opgave:** 
 1. Erklær String array: {"A", "B", "C", "D", "E", "F", "G", "H"}
 2. Loop gennem array
