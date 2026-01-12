@@ -166,14 +166,31 @@ score = score + 50;         // Brug gammel værdi til at beregne ny
 System.out.println(score);  // 250
 ```
 
-### Variables med Objects
-Du kan også have variabler der holder objekter:
+### Variables med Objects (Klasser og Objekter)
 
+**Hvad er en Klasse?**  
+En **klasse** er en blueprint for en kompleks datatype.  
+Ligesom `int` er en type for tal, kan vi lave vores egne typer!
+
+Person-klassen (se Person.java) definerer at en person har:
+- Fornavn og efternavn (String)
+- Alder (int)
+- Højde (double)
+- Osv.
+
+**Hvad er et Objekt?**  
+Et **objekt** er en konkret "ting" lavet fra blueprintet.
 ```java
-Person person = new Person("Anna", "Jensen");
-int age = person.getAge();           // Hent værdi fra objekt
-person.setAge(25);                    // Sæt ny værdi i objekt
+Person person = new Person("Anna", "Jensen");  // Opret person-objekt
+int age = person.getAge();                     // Hent værdi
+person.setAge(25);                             // Sæt værdi
 ```
+
+**Tænk på det sådan:**
+- `int age = 25` - simpel variabel
+- `Person person = new Person(...)` - kompleks variabel (objekt)
+
+**Du skal IKKE skrive klasser endnu - bare bruge dem som komplekse variable!**
 
 **Tag udgangspunkt i klasserne Temperature, Person, og Product.**  
 **Skriv din kode i Main.java i testLevel1() metoden.**
