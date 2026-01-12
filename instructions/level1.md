@@ -12,6 +12,8 @@
 
 ---
 
+[Spring til opgave 1](#del-a-declaration--initialization)
+
 ## Begrebsgennemgang
 
 ### Hvad er en Variabel?
