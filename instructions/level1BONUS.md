@@ -1,6 +1,6 @@
-# Level 2: Operators & Expressions
+# Level1BONUS: Operators & Expressions
 
-## Level 2 fokuserer på:
+## Level1BONUS fokuserer på:
 - Arithmetic operators (+, -, *, /, %)
 - String concatenation (+)
 - Operator precedence (rækkefølge)
@@ -224,7 +224,7 @@ double average = (sum / count) * 100; // Correct
 ```
 
 **Tag udgangspunkt i klasserne PriceCalculator, GroupSplitter, og TextBuilder.**  
-**Skriv din kode i Main.java i testLevel2() metoden.**
+**Skriv din kode i Main.java i testLevel1BONUS() metoden.**
 
 ---
 
@@ -236,7 +236,7 @@ double average = (sum / count) * 100; // Correct
 - String + anything = String
 - += er shorthand for = ... +
 - Test calculations med små tal først
-- Al din kode skal placeres inde i `testLevel2()` metoden mellem tuborgklammerne `{}`
+- Al din kode skal placeres inde i `testLevel1BONUS()` metoden mellem tuborgklammerne `{}`
 
 ---
 
@@ -542,7 +542,7 @@ Player 1's turn
 
 ## Del E: String Concatenation
 
-### Opgave 2.21: Combine strings
+### Opgave 2.1: Combine strings
 **Opgave:** 
 1. Erklær String `firstName` = "Anna"
 2. Erklær String `lastName` = "Hansen"

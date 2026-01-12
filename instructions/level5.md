@@ -880,6 +880,65 @@ Opret et comprehensive calculation system:
 
 ---
 
+## Del I: Operator Precedence with Temp Variables
+
+### Opgave 5.41: Why parentheses matter
+**Opgave:** 
+1. Erklær int `a` = 10
+2. Erklær int `b` = 5
+3. Erklær int `c` = 2
+4. Erklær int `wrong` = a + b * c  (ingen parenteser)
+5. Erklær int `correct` = (a + b) * c  (med parenteser)
+6. Print begge og forklar forskellen
+
+**Forventet Output:**
+```
+20
+30
+```
+Forklaring: wrong = 10 + (5*2) = 20, correct = (10+5)*2 = 30
+
+---
+
+### Opgave 5.42: Complex calculation clarity
+**Opgave:** 
+1. Erklær double `price` = 100.0
+2. Erklær double `quantity` = 3.0
+3. Erklær double `discount` = 0.1
+4. Uden temp variables (uklar):
+   - Erklær double `messyTotal` = price * quantity - price * quantity * discount
+5. Med temp variables (klar):
+   - Erklær double `subtotal` = price * quantity
+   - Erklær double `discountAmount` = subtotal * discount
+   - Erklær double `clearTotal` = subtotal - discountAmount
+6. Print begge (skal være samme)
+
+**Forventet Output:**
+```
+270.0
+270.0
+```
+
+---
+
+### Opgave 5.43: Parentheses for safety
+**Opgave:** 
+1. Erklær int `score1` = 80
+2. Erklær int `score2` = 90
+3. Erklær int `score3` = 85
+4. Beregn gennemsnit MED parenteser:
+   - Erklær double `sum` = (double)(score1 + score2 + score3)  (temp)
+   - Erklær double `average` = sum / 3.0
+5. Print average
+6. UDEN parenteser ville give forkert resultat!
+
+**Forventet Output:**
+```
+85.0
+```
+
+---
+
 ## Refleksionsspørgsmål
 
 Efter du har løst opgaverne, tænk over:
@@ -890,3 +949,4 @@ Efter du har løst opgaverne, tænk over:
 5. Hvordan kan du bruge temp variables til debugging?
 6. Hvornår ville du genbruge en temp variable?
 7. Hvordan balancerer du mellem for mange og for få temp variables?
+8. Hvorfor er parenteser vigtige i komplekse beregninger?

@@ -931,6 +931,67 @@ Opret et system der:
 
 ---
 
+## Del I: Modulo with Index Patterns
+
+### Opgave 4.41: Even and odd indices
+**Opgave:** 
+1. Erklær String array: {"A", "B", "C", "D", "E", "F", "G", "H"}
+2. Loop gennem array
+3. Hvis i % 2 == 0, print "Even index " + i + ": " + array[i]
+4. Ellers print "Odd index " + i + ": " + array[i]
+
+**Forventet Output:**
+```
+Even index 0: A
+Odd index 1: B
+Even index 2: C
+Odd index 3: D
+Even index 4: E
+Odd index 5: F
+Even index 6: G
+Odd index 7: H
+```
+
+---
+
+### Opgave 4.42: Process every nth element
+**Opgave:** 
+1. Erklær int array: {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+2. Erklær int `skipPattern` = 3
+3. Loop gennem array
+4. Hvis i % skipPattern == 0, print "Process: " + array[i]
+
+**Forventet Output:**
+```
+Process: 10
+Process: 40
+Process: 70
+Process: 100
+```
+
+---
+
+### Opgave 4.43: Cycling colors with modulo
+**Opgave:** 
+1. Erklær String array colors: {"Red", "Green", "Blue"}
+2. Erklær String array items: {"Item1", "Item2", "Item3", "Item4", "Item5", "Item6", "Item7"}
+3. Loop gennem items
+4. Erklær int `colorIndex` = i % colors.length
+5. Print items[i] + " is " + colors[colorIndex]
+
+**Forventet Output:**
+```
+Item1 is Red
+Item2 is Green
+Item3 is Blue
+Item4 is Red
+Item5 is Green
+Item6 is Blue
+Item7 is Red
+```
+
+---
+
 ## Refleksionsspørgsmål
 
 Efter du har løst opgaverne, tænk over:
@@ -941,3 +1002,4 @@ Efter du har løst opgaverne, tænk over:
 5. Hvordan looper du backwards gennem et array?
 6. Hvordan finder du position af et element i array?
 7. Hvornår ville du bruge index arithmetic (index + 1)?
+8. Hvordan bruger du modulo (%) med indices for patterns?

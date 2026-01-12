@@ -829,6 +829,78 @@ Blood Type: A
 
 ---
 
+## Del I: Simple Arithmetic with Variables
+
+### Opgave 1.41: Adding money together
+**Opgave:** 
+1. Erklær int `myMoney` = 50
+2. Erklær int `foundMoney` = 20
+3. Erklær int `totalMoney` = myMoney + foundMoney
+4. Print totalMoney
+
+**Forventet Output:**
+```
+70
+```
+
+---
+
+### Opgave 1.42: Spending money
+**Opgave:** 
+1. Erklær int `savings` = 150
+2. Erklær int `spent` = 45
+3. Erklær int `remaining` = savings - spent
+4. Print remaining
+
+**Forventet Output:**
+```
+105
+```
+
+---
+
+### Opgave 1.43: Multiple items cost
+**Opgave:** 
+1. Erklær int `iceCreamPrice` = 25
+2. Erklær int `numberOfIceCreams` = 3
+3. Erklær int `totalCost` = iceCreamPrice * numberOfIceCreams
+4. Print totalCost
+
+**Forventet Output:**
+```
+75
+```
+
+---
+
+### Opgave 1.44: Sharing equally
+**Opgave:** 
+1. Erklær int `totalCandy` = 20
+2. Erklær int `friends` = 4
+3. Erklær int `candyEach` = totalCandy / friends
+4. Print candyEach
+
+**Forventet Output:**
+```
+5
+```
+
+---
+
+### Opgave 1.45: Years until event
+**Opgave:** 
+1. Erklær int `currentYear` = 2026
+2. Erklær int `graduationYear` = 2030
+3. Erklær int `yearsUntilGraduation` = graduationYear - currentYear
+4. Print yearsUntilGraduation
+
+**Forventet Output:**
+```
+4
+```
+
+---
+
 ## Refleksionsspørgsmål
 
 Efter du har løst opgaverne, tænk over:
@@ -839,3 +911,4 @@ Efter du har løst opgaverne, tænk over:
 5. Hvordan navngiver du variabler korrekt?
 6. Hvad sker der når du caster double til int?
 7. Hvorfor er det vigtigt at give variabler meningsfulde navne?
+8. Hvordan bruger du +, -, *, / med variabler?

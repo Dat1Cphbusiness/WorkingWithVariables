@@ -18,12 +18,24 @@ This series is divided into **4 parts** designed to be taught at different stage
 - Type compatibility and basic conversion
 - Constants (final keyword)
 - Variable naming conventions
+- Simple arithmetic with variables
 - **No control structures needed** - pure sequential code
 
-**Focus:** Understanding what variables are and how to work with different data types.
+**Level 1 BONUS: Operators & Expressions**
+- Arithmetic operators (+, -, *, /, %)
+- String concatenation (+)
+- Operator precedence (order of operations)
+- Integer division vs decimal division
+- Type coercion (int + double)
+- Compound assignment operators (+=, -=, *=, /=)
+- **Optional enrichment** - deepens operator understanding
+- **No control structures needed** - can be taught immediately after Level 1
+
+**Focus:** Understanding what variables are, how to work with different data types, and how operators work with variables.
 
 **Example:**
 ```java
+// Level 1
 int age = 25;
 double price = 19.99;
 boolean isActive = true;
@@ -31,6 +43,22 @@ char grade = 'A';
 
 age = age + 1;
 price = price * 1.1;
+
+// Level 1 BONUS
+int apples = 5;
+int oranges = 3;
+int total = apples + oranges;  // Addition
+
+int cookies = 23;
+int people = 5;
+int cookiesEach = cookies / people;  // 4
+int leftover = cookies % people;     // 3 (modulo)
+
+String firstName = "Anna";
+String lastName = "Jensen";
+String fullName = firstName + " " + lastName;  // Concatenation
+
+double result = (10 + 5) * 2;  // Precedence with parentheses
 ```
 
 ---
@@ -241,6 +269,7 @@ public class Statistics {
 ```
 Part 1: Fundamentals (Day One)
 ├── Level 1: Variable Basics & Primitive Types
+├── Level 1 BONUS: Operators & Expressions (Optional)
 └── ✓ Can start immediately, no prerequisites
 
 Part 2: With Control Structures
@@ -292,7 +321,7 @@ Part 4: With Objects
 
 | Part | When to Teach | Prerequisites | Levels | Topics |
 |------|---------------|---------------|--------|---------|
-| **1** | Day One | None | 1 | Basics, primitives, assignment |
+| **1** | Day One | None | 1, 1 BONUS | Basics, primitives, assignment, operators |
 | **2** | After Control Structures | if/else, loops, arrays | 2-7 | Counter, accumulator, flag, index, temp, previous, min/max |
 | **3** | After Methods | Methods, parameters, return | 8-9 | Strings, StringBuilder, references, null |
 | **4** | After Objects | Classes, objects, instance vars | 10-11 | Scope, lifetime, integration |
@@ -317,4 +346,4 @@ Part 4: With Objects
 
 ---
 
-**Total: 11 levels across 4 parts, designed to integrate seamlessly with your existing Java curriculum.**
+**Total: 12 levels (including 1 bonus) across 4 parts, designed to integrate seamlessly with your existing Java curriculum.**
